@@ -1,0 +1,37 @@
+.groups {
+    border: 1px solid red;
+}
+
+.groups__list {}
+
+.groups__list-item {
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.groups__link {
+    text-decoration: none;
+}
+
+.groups__list-text {
+    width: 96px;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    text-overflow: ellipsis; 
+    font-size: 14px;
+    margin-right: 24px;
+    display: inline-block;
+    max-width: 350px;
+}
+
+.groups__list-namber {
+    color: rgb(4, 0, 255);
+    display: inline-block;
+}
